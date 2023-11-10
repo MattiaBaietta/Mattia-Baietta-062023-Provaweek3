@@ -325,7 +325,7 @@ return objmatch
   Scrivi una funzione chiamata "removeIndex" che riceve un numero come parametro e ritorna l'array "movies" fornito privo dell'elemento nella posizione ricevuta come parametro.
 */
 function removeIndex(n){
-  return movies.splice(n,movies.length)
+  return movies.splice(n)
 }
 // DOM (nota: gli elementi che selezionerai non si trovano realmente nella pagina)
 
@@ -372,19 +372,19 @@ backgroundlinks()
 /* ESERCIZIO 24
   Scrivi una funzione per aggiungere un nuovo elemento alla lista non ordinata con id "myList".
 */
-function addli(){
+/*function addli(){
   let checkpos=document.getElementById("myList")
   let creali=document.createElement("li")
   creali.innerText="ciao"
   checkpos.appendChild(creali)
 }
-addli()
+addli()*/
 
 /* ESERCIZIO 25
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
 
-function deleteul(){
+/*function deleteul(){
   let checkpos=document.getElementById("myList")
   checkpos.remove()
 }
@@ -589,5 +589,5 @@ console.log(onlyTheYears(movies))
 console.log(onlyInLastMillennium(movies))
 console.log(sumAllTheYears(movies))
 console.log(searchByTitle(movies,"War"))
-console.log(searchAndDivide("War"))
-console.log(removeIndex(1))*/
+console.log(searchAndDivide("War"))*/
+console.log(removeIndex(1))
